@@ -1,4 +1,4 @@
-# hw3d
-C++ 3D graphics engine under Direct3D 11. Developed in a Planet Chili video tutorial series that can be found on YouTube. https://youtu.be/_4FArgOX1I4
+# solution_d3d
+Purpose: Using WINAPI and Direct3D 11, make a simple rendering engine for scenes, demos, etc.
 
-n3u2o's reference fork
+This project is based on Chili's DirectX [hw3d](https://github.com/planetchili/hw3d)
