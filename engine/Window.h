@@ -72,8 +72,4 @@ private:
 	std::unique_ptr<Graphics> pGfx;
 };
 
-
-// error exception helper macro
-#define EW_EXCEPT( hr ) Window::HrException( __LINE__,__FILE__,(hr) )
-#define EW_LAST_EXCEPT() Window::HrException( __LINE__,__FILE__,GetLastError() )
-#define EW_NOGFX_EXCEPT() Window::NoGfxException( __LINE__,__FILE__ )
+#include "WindowThrowMacros.h"
