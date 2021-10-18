@@ -71,5 +71,3 @@ private:
 	HWND hWnd;
 	std::unique_ptr<Graphics> pGfx;
 };
-
-#include "WindowThrowMacros.h"

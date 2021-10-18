@@ -3,6 +3,8 @@
 #include "Graphics.h"
 #include <dxgidebug.h>
 #include <memory>
+#include "GraphicsThrowMacros.h"
+#include "WindowThrowMacros.h"
 
 #pragma comment(lib, "dxguid.lib")
 

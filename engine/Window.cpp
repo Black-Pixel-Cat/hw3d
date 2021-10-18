@@ -2,6 +2,7 @@
 #include <sstream>
 #include "resource.h"
 #include "WindowsMessageMap.h"
+#include "WindowThrowMacros.h"
 
 
 // Window Class Stuff
